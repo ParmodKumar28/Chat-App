@@ -2,7 +2,9 @@ import "./ProfileUpdate.css";
 
 const ProfileUpdate = () => {
     return (
-        
+        <div>
+            
+        </div>
     )
 }
 
