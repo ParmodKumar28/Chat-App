@@ -1,4 +1,5 @@
 import assets from "../../assets/assets";
+import { logout } from "../../config/firebase";
 import "./RightSidebar.css";
 
 const RightSidebar = () => {
@@ -24,7 +25,7 @@ const RightSidebar = () => {
                 </div>
             </div>
 
-            <button>Logout</button>
+            <button onClick={() => logout()}>Logout</button>
         </div>
     )
 }
